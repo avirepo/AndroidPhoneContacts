@@ -17,6 +17,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    repositories {
+        maven {
+            url 'https://dl.bintray.com/vikasgoyal/maven'
+        }
+    }
 }
 
 dependencies {
@@ -26,5 +32,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.1.1'
     testCompile 'junit:junit:4.12'
-
+    compile 'com.avi.android:contacts:1.0'
 }
