@@ -35,6 +35,9 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
+.idea
 
 # Keystore files
 *.jks
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/

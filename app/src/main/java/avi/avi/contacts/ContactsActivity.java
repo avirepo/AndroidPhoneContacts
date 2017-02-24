@@ -18,7 +18,7 @@ public class ContactsActivity extends AppCompatActivity implements ContactQuery.
         setContentView(R.layout.activity_contacts);
         //Fetch all contacts
         ContactsFetchManager.getInstance().fetchContacts(new ContactQuery
-                .Builder(ContactQueryType.ALL_PHONE_EMAIL)
+                .Builder(ContactQueryType.COMBINED_EMAIL_PHONE)
                 .withResponseListener(this)
                 .build(this));
     }
