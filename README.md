@@ -54,12 +54,11 @@ If you want to use **ContactFetchManager** First you need to Build a query for t
 Lets take example for fetching COMBINED_EMAIL_PHONE which basically provide all the saved contacts in phone book with single entity for a contact and
 combined all number and emails for that contact inside array or **LabeledData**.
 
- ```java
+
         ContactsFetchManager.getInstance().fetchContacts(new ContactQuery
                         .Builder(ContactQueryType.COMBINED_EMAIL_PHONE)
                         .withResponseListener(this)
                         .build(this));
- ```
 
 
  **Known Issue :-**
