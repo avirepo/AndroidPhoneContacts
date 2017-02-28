@@ -33,6 +33,10 @@ For Maven dependency please add following lines:
       <type>pom</type>
     </dependency>
 
+Make sure you have define permission for contact in Android manifest.
+
+   <uses-permission android:name="android.permission.READ_CONTACTS" />
+
 Now your project is ready to use the ContactLib
 
 If you want to use **ContactFetchManager** First you need to Build a query for that.
