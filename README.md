@@ -21,7 +21,7 @@ Add Maven repository in your app build.gradle file
 
 Add dependency with following lines on build.gradle.
 
-        compile 'com.avi.android:contacts:1.0'
+        compile 'com.avi.android:contacts:1.0.1'
 
 
 For Maven dependency please add following lines:
@@ -29,7 +29,7 @@ For Maven dependency please add following lines:
     <dependency>
       <groupId>com.avi.android</groupId>
       <artifactId>contacts</artifactId>
-      <version>1.0</version>
+      <version>1.0.1</version>
       <type>pom</type>
     </dependency>
 
